@@ -1,0 +1,12 @@
+{
+  "name": "@enspire/node-mws-sdk",
+  "version": "0.0.0-development",
+  "description": "Amazon Marketplace WebService (MWS) node SDK.",
+  "main": "./lib/index.js",
+  "repository": {
+    "type": "git",
+    "url": "https:git@github.com:envistaInteractive/node-mws-sdk.git"
+  },
+  "author": "Angel Ramirez <aramirez@enspirecommerce.com>",
+  "license": "SEE LICENSE IN <LICENSE.md>"
+}
