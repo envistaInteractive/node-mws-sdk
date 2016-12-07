@@ -1,3 +1,12 @@
 {
-  "extends": "rallycoding"
+  "extends": "rallycoding",
+  "env": {
+    "es6": true,
+    "node": true,
+    "mocha": true
+  },
+  "ecmaFeatures": {
+    "classes": true,
+    "modules": true
+  }
 }
