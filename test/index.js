@@ -26,7 +26,7 @@ describe(`${name}:${version} -------- CLIENT`, () => {
         path: '/Products/2011-10-01',
         query: {
           Action: 'GetServiceStatus',
-          Version: '2011-10-01',
+          Version: '2011-10-01'
         }
       });
 

@@ -8,12 +8,13 @@ branches:
     - master
 notifications:
   email: false
-before_script:
-  - npm prune
+before_install:
+  - curl -o- -L https://yarnpkg.com/install.sh | bash
+  - export PATH=$HOME/.yarn/bin:$PATH
 script:
-  - npm run cover
-  - npm run check-coverage
-  - npm run build
+  - yarn run cover
+  - yarn run check-coverage
+  - yarn run build
 after_success:
-  - npm run report-coverage
-  - npm run semantic-release
+  - yarn run report-coverage
+  - yarn run semantic-release
