@@ -1,0 +1,12 @@
+{
+  "name": "@enspire/node-mws-sdk",
+  "dependencies": {
+    "bluebird": "registry:npm/bluebird#3.4.1+20160909132857",
+    "lodash": "registry:npm/lodash#4.0.0+20161015015725"
+  },
+  "globalDependencies": {
+    "axios": "registry:dt/axios#0.9.1+20161016142654",
+    "node": "registry:env/node#6.0.0+20161105011511",
+    "qs": "registry:dt/qs#6.2.0+20160707010053"
+  }
+}
